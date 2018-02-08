@@ -1,0 +1,52 @@
+* { box-sizing: border-box; }
+
+body { 
+    font-size: 16px;
+    font-family: 'Sansito', Ubuntu, sans-serif;
+}
+
+h1, h2, h3 {
+    color: #7c8855;
+   font-family: 'Sansito', Ubuntu, sans-serif;
+}
+
+h1 {
+    font-size: 16px;
+}
+
+header {
+    background-color: #a3bb49; 
+    padding: .5rem
+}
+
+main {
+	min-height: 5em;
+}
+
+main img {
+    width: 128px;
+    height: auto;             
+}
+
+ header, main, footer {
+              margin: 0 auto; 
+              border: 1px solid #bbb; 
+              padding: 5px; 
+              background-color: #eee; 
+              line-height: 1.5em;
+}
+
+footer {
+	clear: both;
+	text-align: center;
+	padding: 1em;
+	background-color: #a3bb49;
+	color: #fff;
+	font-size: .8rem;
+}
+
+
+.profile {
+    box-shadow: .25rem .25rem .25rem #ccaabb;
+    border: 1px solid #777;
+    }
